@@ -1,0 +1,12 @@
+
+@mixin title-shadow {
+
+    text-shadow: .55rem .55rem #f2f2f2 ;
+
+}
+
+.title-super {
+
+    color: red ;
+    @include title-shadow;
+}
