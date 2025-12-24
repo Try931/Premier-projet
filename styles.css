@@ -1,5 +1,13 @@
-
-h1{
-
-    color: red;
+.title-super {
+  color: red;
+  text-shadow: -0.35rem 0.1rem rgb(88, 86, 86);
+  border: solid 2px green;
+  color: blue;
 }
+
+.sous-texte {
+  color: aqua;
+  font-size: 29px;
+  font-weight: 1;
+  font-family: Arial, Helvetica, sans-serif;
+}/*# sourceMappingURL=styles.css.map */
