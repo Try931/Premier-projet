@@ -1,16 +1,16 @@
 
-$color: blue;
+
 
 @mixin title-shadow {
 
     text-shadow: -.35rem .10rem rgb(88, 86, 86) ;
     border: solid 2px green;
-    color: $color;
+    color: pink;
 }
 
 .title-super {
 
-    color: red ;
+    color: pink;
     @include title-shadow;
 }
 
